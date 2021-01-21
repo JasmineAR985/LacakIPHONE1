@@ -6,90 +6,75 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientasi="horizontal">
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FF0000"
-            android:gravity="center_horizontal"
-            android:text="Merah" />
-
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#00aa00"
-            android:gravity="center_horizontal"
-            android:text="Hijau" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#0000aa"
-            android:gravity="center_horizontal"
-            android:text="Biru" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FFFF00"
-            android:gravity="center_horizontal"
-            android:text="Kuning" />
-    </LinearLayout>
-
-
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="LacakiPHONE1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#FFFF00"
+        >
+    </TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
-
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FF0000"
-            android:text="Merah" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#00aa00"
-            android:text="Hijau" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#0000aa"
-            android:text="Biru" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FFFF00"
-            android:text="Kuning" />
-
-
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/home"
+            android:layout_margin="16dp"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/compact1"
+            android:layout_margin="16dp"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/microphone1"
+            >
+        </ImageView>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/muted"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/maplocation"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/placeholders"
+            >
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>
 </LinearLayout>
